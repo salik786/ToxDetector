@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@500&display=swap");
+
+.form-container {
+  height: 100vh;
+  width: 100vw;
+}
+.form {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 25%;
+}
+
+/* Login component styling  */
+.login-form-container {
+  height: 100vh;
+  width: 100vw;
+}
+.login-form {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Register form Styling */
+.register-form-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #03173d;
+  justify-content: center;
+}
+.left-register-form {
+  background-color: #03173d;
+  width: 50%;
+  height: 100%;
+}
+input {
+  padding: 10px;
+  width: 60%;
+  margin-top: 20px;
+  border: 5px solid #03173d;
+  background-color: white;
+}
+.right-register-form {
+  width: 50%;
+  height: 100%;
+}
+h1 {
+  color: white;
+}
+.register-btn {
+  padding: 15px;
+  background: linear-gradient(to top left, #482ff7 0%, #333399 100%);
+  border: 5px solid white;
+  color: white;
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 1rem;
+}
+.register-btn:hover {
+  background: white;
+  color: #482ff7;
+  border: 1px solid #482ff7;
+}
+.social-btns {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 30%;
+}
+.soc-btn {
+  padding: 10px;
+  color: white;
+  width: 20%;
+  font-family: "Be Vietnam", sans-serif;
+  border: 1px solid white;
+  margin: 10px;
+  font-size: 0.9rem;
+}
+.soc-btn:hover {
+  background-color: #03173d;
+  color: #3365fc;
+
+  border: 1px solid #3365fc;
+}
+.fb {
+  background-color: #337ae0;
+}
+.goog {
+  background-color: #e53b3e;
+}
+.goog:hover {
+  background-color: #03173d;
+  color: #e53b3e;
+  border: 1px solid #e53b3e;
+}
+.twit {
+  background-color: #638ced;
+}
+
+.heading {
+  color: #482ff7;
+  letter-spacing: 8px;
+  font-weight: bolder;
+  font-size: 35px;
+  text-align: center;
+}
